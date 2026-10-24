@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#root{
+    margin-top:30px ;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav{
+    background-color: rgb(21, 117, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+nav > img{
+    width: 25px;
+}
+
+nav > span{
+    font-weight: 700;
+}
+.container{
+    padding: 20px;
+}
+article{
+    display: flex;
+    width: 500px;
+    gap: 17px;
+}
+article > img{
+    display: block;
+    height: 190px;
+    width: 129px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.marker{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info > p , .info h2{
+    margin: 0;
+}
+.marker > img{
+    width: 12px;
+    margin-right: -5px;
+}
+
+.info > h2{
+    margin-bottom: 5px;
+}
+
+.info > .about{
+    margin-top: 10px;
+}
+
+.info > .date{
+    font-weight: 600;
+}
